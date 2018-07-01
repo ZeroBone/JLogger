@@ -60,6 +60,14 @@ public class Logger {
 
     }
 
+    public static StringBuilder proxy(StringBuilder something) {
+
+        System.out.println("[P]: " + something);
+
+        return something;
+
+    }
+
     public static int proxy(int num) {
 
         System.out.println("[P]: " + num);
